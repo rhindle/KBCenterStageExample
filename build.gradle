@@ -5,7 +5,7 @@
  */
 
 buildscript {
-    ext.kotlin_version = '1.8.20'
+    //ext.kotlin_version = '1.8.20'   //lk del
 
     repositories {
         mavenCentral()
@@ -14,7 +14,7 @@ buildscript {
     dependencies {
         // Note for FTC Teams: Do not modify this yourself.
         classpath 'com.android.tools.build:gradle:8.7.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        //classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"  //lk del
     }
 }
 
